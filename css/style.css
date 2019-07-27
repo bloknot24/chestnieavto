@@ -443,7 +443,7 @@ label {
  }
 .menu__links-item {
 	display: inline-block;
-	color: #333333;
+	color: #ffffff;
 	font-family: 'Exo 2', sans-serif;;
 	font-size: 16px;
 	line-height: 30px;
@@ -485,7 +485,7 @@ label {
 	background-color: rgba(0, 0, 0, 0.8);
 	z-index: 1000;
 	overflow: auto;
-  }
+}
 .menu__links-item {
 	display: block;
 	padding: 10px 0;
@@ -539,7 +539,6 @@ label {
 	transition: all ease 1s;
 	border-radius: 3px;
 }
-
 .window__avto-link {
 	position: absolute;
 	left: 29px;

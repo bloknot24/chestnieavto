@@ -23,6 +23,14 @@
 	.contacts__telegram-img {
 		margin-left: 25px;
 	}
+	.window__avto-img {
+		width: 95%;
+	}
+	.window__avto-description, .window__avto-link {
+		height: 206px;
+		width: 300px;
+		left: 4px;
+	}
 }
 @media screen and (max-width: 992px) {
 	.contacts__mail-img {
