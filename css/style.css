@@ -588,3 +588,29 @@ label {
 	font-size: 1rem;
 	padding-bottom: 20px;
 }
+.manuals__box {
+	background: #ffa366;
+	color: #000000;
+	border-radius: 3px;
+	box-shadow: -5px 3px 4px 1px #000000;
+	margin: 30px auto;
+}
+.manuals__text-head {
+	font-size: 1.2rem;
+	padding: 20px 0px;
+	font-weight: 700;
+}
+.manuals__box:hover {
+	background: #ff6600;
+}
+.manual__list-item {
+	font-size: 1rem;
+}
+.manuals__list-link {
+	color: #000000;
+	text-decoration: none;
+}
+.manuals__box-link {
+	font-size: 1rem;
+	padding-bottom: 5px;
+}
