@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Честные авто|Счет-справка</title>
+	<title>Честные авто|Главная</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="author" content="alex_ignatovich">
 	<meta name="description" content="Переоформление, страхование, счет-справка, договор купли-продажи на авторынке в Малиновке, цены, прайс, услуги">
@@ -106,7 +106,7 @@
 	<section id="services">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<div class="services__head">
 						<h2 class="services__head-title upper">
 							Наши услуги
@@ -115,20 +115,23 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<div class="box__services-item center">
 						<a href="spravka.html">
 							<img src="img/spravka.png" class="box__services-item-img" title="Подробнее..." alt="Счет-справка">
 							<p class="box__services-item-text">
 								<strong>Счет-справка</strong><br>
 							</p>
-							<p class="box__services-item-text-addition">
+							<p class="box__services-item-text-addition hidden-md">
 								Полный комплект документов
+							</p>
+							<p class="box__services-item-text-addition visible-md">
+								Комплект документов
 							</p>
 						</a>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<div class="box__services-item center">
 						<a href="insurance.html">
 							<img src="img/insurance.png" class="box__services-item-img" title="Подробнее..." alt="Страхование">
@@ -141,7 +144,7 @@
 						</a>	
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<div class="box__services-item center">
 						<a href="sale.html">
 							<img src="img/car.png" class="box__services-item-img" title="Подробнее..." alt="Продажа авто">
@@ -154,23 +157,23 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 					<div class="manuals__box">
 						<p class="manuals__text-head upper center">
 							Нужные вещи
 						</p>
 						<ul class="manuals__list">
-							<a href="#" class="manuals__list-link">
+							<a href="manuals/staging.html" class="manuals__list-link">
 								<li class="manual__list-item">
 									Документы при постановке на учет
 								</li>
 							</a>
-							<a href="#" class="manuals__list-link">
+							<a href="manuals/cut.html" class="manuals__list-link">
 								<li class="manual__list-item">
 									Документы при снятии с учета
 								</li>
 							</a>
-							<a href="#" class="manuals__list-link">
+							<a href="manuals/registration.html" class="manuals__list-link">
 								<li class="manual__list-item">
 									Порядок регистрации транспорта
 								</li>
@@ -181,6 +184,77 @@
 								Забрать все!
 							</p>
 						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="lig-magnit">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<div class="services__head">
+						<h2 class="services__head-title upper">
+							Бонус
+						</h2>
+					</div>
+				</div>
+			</div>
+			<div class="magnit__box">
+				<div class="row">
+					<div class="col-ld-3 col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 col-xs-12">
+						<div class="center">
+							<img src="img/lid-magnit.png" alt="Лид-магнит" class="magnit__box-img">
+						</div>
+					</div>
+					<div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+						<div class="magnit__box-title">
+							<h3 class="magnit__box-title-text">
+								15 лайфхаков, которые помогут при покупке поддержанного авто
+							</h3>
+						</div>
+						<ul class="magnit__box-list">
+							<p>
+								Введите ваш e-mail, нажмите на кнопку скачать и получите:
+							</p>
+							<li class="magnit__box-item">чек-лист, по которому вы так же сможете проверить ваш авто перед продажей;</li>
+							<li class="magnit__box-item">узнаете на что стоит обращать внимание при покупке поддержаного автомобиля;</li>
+							<li class="magnit__box-item">просто получите новые знания.</li>
+						</ul>
+						<form action="#" method="post" id="application">
+							<input type="email" name="name" class="magnit__box-input" placeholder="Введите e-mail" required="required" id="applicationEmail">
+							<button class="magnit__box-btn upper applicationButton" type="submit" form="application">
+								Скачать чек-лист
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="articles">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="services__head">
+						<h2 class="services__head-title upper">
+							Статьи
+						</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg- col-md-6 col-md-offset-2 col-sm-12 col-sm-offset-1 col-xs-12">
+					<div class="evolution-kia-sportage__box">
+						<a href="articles/evolution-kia-sportage.html">
+							<img src="img/evolution-kia-sportage.jpg" alt="Статья" class="evolution-kia-sportage__box-img" title="Читать">
+						</a>
+						<p class="evolution-kia-sportage__box-text">
+							Эволюция KIA Sportage
+						</p>
+						<p class="evolution-kia-sportage__box-text-data">
+							28 августа 2019г
+						</p>
 					</div>
 				</div>
 			</div>

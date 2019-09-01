@@ -50,8 +50,8 @@ body {
 }
 .menu__item {
 	float: left;
-	font-size: 1rem;
-	margin-top: 4px;
+	font-size: 0.95rem;
+	margin-top: 5px;
 }
 .menu__item-link {
 	padding: 5px 4px;
@@ -613,4 +613,102 @@ label {
 .manuals__box-link {
 	font-size: 1rem;
 	padding-bottom: 5px;
+}
+.manual__box-title {
+	font-size: 2rem;
+	margin: 20px auto;
+	padding-top: 20px;
+}
+.manual__box {
+	background: #ffffcc;
+	margin: 25px 0px;
+}
+.manual__box:hover {
+	box-shadow: 3px 6px 5px 3px #ffe0cc;
+}
+.manual__box-list {
+	font-size: 1.1rem;
+	line-height: 28px;
+}
+.manual__box-button-link {
+	background: #ffdb4d;
+	padding: 15px 15px;
+	border-radius: 10px;
+	font-size: 1.5rem;
+}
+.manual__box-button {
+	margin: 30px auto;
+}
+.manual__box-button-link:hover {
+	text-decoration: none;
+	background: #ffe680;
+	box-shadow: 3px 7px 4px 3px #000000;
+}
+.manual__box-list-item {
+	padding: 10px;
+}
+.manual__box-list-item-text {
+	font-weight: 500;
+	padding: 0px 0px 0px 10px;
+	text-decoration: underline;
+}
+.services__head-title {
+	font-size: 2rem;
+	margin-top: 5px;
+	padding-bottom: 7px;
+	border-bottom: 4px solid #fdef5a;
+	width: 260px;
+}
+.services__head {
+	margin: 20px 0px;
+}
+.magnit__box-img {
+	width: 250px;
+	border: 1px solid #331400;
+}
+.magnit__box {
+	margin: 30px 0px;
+}
+.magnit__box-img:hover {
+	box-shadow: 1px 1px 2px #000000;
+}
+.magnit__box-title {
+	margin: 20px 0px 20px 0px;
+}
+.magnit__box-title-text {
+	font-size: 1.5rem;
+}
+.magnit__box-list {
+	font-size: 1rem;
+}
+.magnit__box-input {
+	width: 200px;
+	height: 40px;
+	border-radius: 10px;
+	padding-left: 15px;
+	background: #ffffb3;
+	margin: 20px 20px;
+}
+.magnit__box-btn {
+	width: 200px;
+	height: 40px;
+	border-radius: 10px;
+	background: #b3b3ff;
+}
+.evolution-kia-sportage__box-img {
+	border-radius: 5px;
+}
+.evolution-kia-sportage__box-img:hover {
+	cursor: pointer;
+}
+.evolution-kia-sportage__box {
+	margin: 20px 0px;
+}
+.evolution-kia-sportage__box-text {
+	font-size: 1.3rem;
+	margin: 10px 0px;
+	font-weight: 700;
+}
+.evolution-kia-sportage__box-text-data {
+	font-size: 0.7rem;
 }

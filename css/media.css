@@ -35,6 +35,9 @@
 	.window__avto-link {
 		padding-top: 110px;
 	}
+	.magnit__box-btn {
+		margin-left: 20px;
+	}
 }
 @media screen and (max-width: 992px) {
 	.contacts__mail-img {
@@ -73,6 +76,9 @@
 	.window__avto-description {
 		font-size: 1rem;
 	}
+	.manual__list-item {
+		font-size: 1.2rem;
+	}
 }
 @media screen and (max-width: 768px) {
 	.сonditions__column-head {
@@ -99,10 +105,26 @@
 	.box__mobile {
 		margin: 0px auto 20px auto;
 	}
+	.manual__list-item {
+		font-size: 1rem;
+	}
+	.magnit__box-img {
+		text-align: center;
+		margin: 0px auto;
+	}
+	.magnit__box-title {
+		width: 90%;
+	}
+	.evolution-kia-sportage__box {
+		width: 100%;
+	}
 }
 @media screen and (max-width: 737px) {
 	.logo__text {
 		display: none;
+	}
+	.evolution-kia-sportage__box-img {
+		width: 100%;
 	}
 }
 @media screen and (max-width: 560px) {
@@ -188,6 +210,16 @@
 	.window__avto-head {
 		font-size: 2rem
 	}
+	.services__head-title {
+		font-size: 1.5rem;
+		width: 200px;
+	}
+	.magnit__box-img {
+		width: 90%;
+	}
+	.magnit__box-input, .magnit__box-btn {
+		width: 90%;
+	}
 }
 @media screen and (max-width: 220px) {
 	.box__mobile-text, .box__mobile-link {
@@ -195,5 +227,9 @@
 	}
 	.window__avto-head {
 		font-size: 1.5rem
+	}
+	.services__head-title {
+		font-size: 1.5rem;
+		width: 170px;
 	}
 }
