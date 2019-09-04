@@ -81,6 +81,12 @@
 	}
 }
 @media screen and (max-width: 768px) {
+	.evolution-kia-sportage-img-sportage-two, .evolution-kia-sportage-img-three, .evolution-kia-sportage-img-four {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 768px) {
 	.сonditions__column-head {
 		padding-top: 150px;
 	}
@@ -118,6 +124,9 @@
 	.evolution-kia-sportage__box {
 		width: 100%;
 	}
+	.evolution-kia-sportage-img-bongo, .evolution-kia-sportage-img-first, .evolution-kia-sportage-img-first-grand {
+		width: 90%;
+	}
 }
 @media screen and (max-width: 737px) {
 	.logo__text {
@@ -136,6 +145,12 @@
 	}
 	#question__form, #question__insurance-form {
 		width: 90%;
+	}
+	.evolution-sportage__title-text {
+		font-size: 2.5rem;
+	}
+	.evolution-sportage__title-item {
+		font-size: 2rem;
 	}
 }
 @media screen and (max-width: 500px) {
@@ -169,17 +184,9 @@
 		margin-left: 5px;
 	}
 }
-@media screen and (max-width: 367px) {
-	.first__head {
-		font-size: 2.5rem;
-	}
-	.contacts__telegram-img {
-		margin-left: -5px;
-	}
-}
-@media screen and (max-width: 367px) {
-	.contacts__head {
-		font-size: 3.5rem;
+@media screen and (max-width: 480px) {
+	.evolution-sportage__title-item {
+		font-size: 1.7rem;
 	}
 }
 @media screen and (max-width: 367px) {
@@ -192,7 +199,23 @@
 	.footer__unp {
 		margin-top: 22px;
 	}
-
+	.contacts__head {
+		font-size: 3.5rem;
+	}
+	.first__head {
+		font-size: 2.5rem;
+	}
+	.contacts__telegram-img {
+		margin-left: -5px;
+	}
+	.evolution-kia-sportage-img-salon {
+		width: 90%;
+	}
+}
+@media screen and (max-width: 328px) {
+	.manual__box-button-link {
+		font-size: 1rem;
+	}
 }
 @media screen and (max-width: 280px) {
 	.contacts__mail-img, .contacts__insta-img, .contacts__tel-img, .contacts__telegram-img {
@@ -219,6 +242,23 @@
 	}
 	.magnit__box-input, .magnit__box-btn {
 		width: 90%;
+	}
+	.evolution-sportage__title-text {
+		font-size: 2.1rem;
+	}
+	.evolution-sportage__title-item {
+		font-size: 1.5rem;
+	}
+}
+@media screen and (max-width: 288px) {
+	.footer__unp {
+		margin-top: 10px;
+	}
+}
+@media screen and (max-width: 236px) {
+	.manual__box-button-link {
+		font-size: 0.7rem;
+		font-weight: 700;
 	}
 }
 @media screen and (max-width: 220px) {

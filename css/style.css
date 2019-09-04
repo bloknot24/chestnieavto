@@ -23,6 +23,7 @@ body {
 .upper {
 	text-transform: uppercase;
 }
+}
 * {
 	box-sizing: border-box;
 }
@@ -694,6 +695,7 @@ label {
 	height: 40px;
 	border-radius: 10px;
 	background: #b3b3ff;
+	margin-left: 19px;
 }
 .evolution-kia-sportage__box-img {
 	border-radius: 5px;
@@ -711,4 +713,40 @@ label {
 }
 .evolution-kia-sportage__box-text-data {
 	font-size: 0.7rem;
+}
+.evolution-sportage__title-text {
+	font-size: 3rem;
+	font-weight: 700;
+	margin: 30px 0px;
+}
+.evolution-sportage__articles-text {
+	font-size: 1.2rem;
+	margin-bottom: 30px;
+}
+.evolution-kia-sportage-img-bongo {
+	width: 700px;
+}
+.figcaption {
+	font-size: 1rem;
+	margin-top: 5px;
+}
+.evolution-sportage__title-item {
+	font-size: 2.5rem;
+	margin: 30px 0px;
+}
+.evolution-kia-sportage-img-first {
+	width: 700px;
+}
+.evolution-kia-sportage-img-first-grand {
+	width: 700px;
+} 
+.evolution-kia-sportage-img-salon {
+	width: 300px;
+}
+.figure__img {
+	float: left;
+	margin-right: 20px;
+}
+figcaption {
+	margin-bottom: 20px;
 }
